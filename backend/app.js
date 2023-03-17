@@ -7,7 +7,9 @@ const errorMiddleware = require('./middleware/error')
 
 // routes imports
 const complaint = require('./routes/complaintRoute.js')
+const admin = require('./routes/adminRoute')
 app.use('/api/v1/', complaint)
+app.use('/api/v1/', admin)
 // app.use(errorMiddleware)
 
 
