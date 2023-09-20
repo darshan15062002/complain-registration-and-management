@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.formContainer{
+    height: 100%;
+    background: #C4BBF0;
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .formWrapper{
+        background-color: rgb(226, 226, 226);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 60px;
+        text-align: center;
+        gap:12px;
+        border-radius: 12px;
+        justify-content: center;
+        width: 50%;
+        .titles{
+            display: flex;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: 400;
+            width: 100%;
+            justify-content: left;
+            gap:6rem;
+            padding-bottom: 5px;
+            border-bottom:1px solid grey;
+        }
+        .complaintBox{
+            width: 100%;
+            display: flex;
+            font-size: 14px;
+            font-family: serif;
+            align-items: center;
+            gap:4rem;
+            justify-content: left;
+            span{
+                width:150px;
+                text-align: left;
+            }
+        }
+        .logo{
+            font-weight: bold;
+            font-size: 24px;
+            color: #4F3B78;
+        }
+        .title{
+            color: #4F3B78; 
+            font-size: 16px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+    
+          
+            gap:12px;
+            .inputsWrapper{
+                width: -webkit-fill-available;
+                 select,input{
+                padding: 7px;
+                width: -webkit-fill-available;
+                border:none;
+                border: 1px solid #4F3B78;
+                outline: none;
+                &::placeholder{
+                    color:rgba(175 175 175 )
+                }
+      
+            }
+            }
+           
+                button{
+                    margin-top: 5px;
+                     background: #4F3B78;
+                    padding: 10px 20px;
+                    color: white;
+                     font-weight: bold;
+                    border:none;
+                    cursor: pointer;
+
+            }
+        }
+        p{
+            color: #4F3B78;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+    }
+}
